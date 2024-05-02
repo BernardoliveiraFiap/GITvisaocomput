@@ -1,1 +1,1 @@
-# Complemento da visão computacional: https://github.com/BernardoliveiraFiap/Visao_Computacional
+# Este repositório é apenas um Complemento da visão computacional
