@@ -1,0 +1,53 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #331f8d;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-align: center; /* centraliza o texto */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #080808;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+#webcam-container {
+    width: 100%;
+    height: 300px; /* aumenta o campo de visão da webcam */
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+#label-container {
+    font-size: 16px; /* diminui o tamanho do texto */
+    margin-top: 10px;
+    word-wrap: break-word; /* quebra a linha se o texto for muito longo */
+}
